@@ -1,0 +1,22 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  padding: 0 50px 0 10px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+  font-size: 30px;
+}
+.nav_list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav_link{
+  position: relative;
+  color: gray;
+}
+.nav_link--selected{
+  color: black;
+}

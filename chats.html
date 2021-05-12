@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6dbc707731.js" crossorigin="anonymous"></script>
+    <title>Hokao talk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header_top"><!--휴대폰 상태 바-->
+            <div class ="header_column"><!--시간-->
+                <span class="header_time">20:01</span>
+            </div>
+            <div class ="header_column">
+                <i class="fas fa-wifi"></i>
+                <span class="header_battery">100%</span>
+                <i class="fas fa-battery-full"></i>
+            </div>
+        </div>
+            <div class="header_bottom"><!--카카오톡 상태 바-->
+                <div class ="header_column">
+                    <span class="header_chatting">채팅</span>
+                </div>
+                <div class ="header_column">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-comment-medical"></i>
+                    <i class="fas fa-music"></i>
+                    <i class="fas fa-cog"></i>
+                </div>
+            </div>
+    </header>
+    <main class="chats">
+      <ul class="chats_list">
+        <a href="chat.html">
+        <li class="chats_chat">
+           <div class="chats_content">
+            <img src="img/profileshot.jpg">
+            <div class="chat_priview">
+              <h3 class="chat_user">윤호산</h3>
+              <span class="chat-last-message">Hi</span>
+            </div>
+          </div>
+          <span class="chat_date-time">21:26</span>
+      </li>
+    </a>
+      </ul>
+      <ul class="chats_list">
+        <li class="chats_chat">
+          <div class="chats_content">
+            <img src="img/profile2.jpg">
+            <div class="chat_priview">
+              <h3 class="chat_user">송민수, 김욱철, 김정우</h3>
+              <span class="chat-last-message">Bye</span>
+            </div>
+          </div>
+          <span class="chat_date-time">21:27</span>
+        </li>
+      </ul>
+      <ul class="chats_list">
+        <a href="chat.html">
+        <li class="chats_chat">
+           <div class="chats_content">
+            <img src="img/basic_profile.jpg">
+            <div class="chat_priview">
+              <h3 class="chat_user">서기민</h3>
+              <span class="chat-last-message">자전거 ㄱ?</span>
+            </div>
+          </div>
+          <span class="chat_date-time">19:00</span>
+      </li>
+    </a>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_btn">
+          <a class="nav_link" href="index.html">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link--selected" href="chats.html">
+            <i class="fas fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="find.html">
+            <i class="fas fa-hashtag"></i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="more.html">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+</body>
+</html>

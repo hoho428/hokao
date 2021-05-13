@@ -9,6 +9,15 @@
   justify-content: space-between;
   margin-bottom: 20px;
 }
+.header_column-right i{
+  margin-left: 20px;
+  font-size: 20px;
+}
+.wallet{
+  background-color: yellow;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .wallet_column{
   display: flex;
   justify-content: space-between;

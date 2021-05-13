@@ -2,10 +2,70 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>chat</title>
+    <script src="https://kit.fontawesome.com/6dbc707731.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <h1>여긴 아직 미구현 2일 내로 업데이트 예정</h1>
-
+  <body id="chat-screen">
+    <header>
+      <div class="header_top"><!--휴대폰 상태 바-->
+          <div class ="header_column"><!--시간-->
+              <span class="header_time">20:01SKT</span>
+          </div>
+          <div class ="header_column">
+              <i class="fas fa-wifi"></i>
+              <span class="header_battery">100%</span>
+              <i class="fas fa-battery-full"></i>
+          </div>
+        </div>
+          <div class="header_bottom"><!--카카오톡 상태 바-->
+              <div class ="header_column">
+                <a class="back_link" href="chats.html">
+                  <i class="fas fa-arrow-circle-left"></i>
+                  윤호산
+                </a>
+              </div>
+              <div class ="header_column">
+                  <i class="fas fa-search"></i>
+                  <i class="fas fa-box-open"></i>
+                  <i class="fas fa-bars"></i>
+              </div>
+          </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="chat_timestamp">
+        2021년 5월 13일 수요일
+      </div>
+      <div class="message-row">
+          <img src="img/profileshot.jpg"/>
+          <div class="message-row_content">
+            <span class="message_author">윤호산</span>
+            <div class="message_info">
+              <span class="message_bubble">살려줘!</span>
+              <span class="message_time">15:27</span>
+            </div>
+          </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="massage-row_content">
+          <div class="message_info">
+            <span class="message_bubble">응 아니야~</span>
+            <span class="message_time">21:26</span>
+          </div>
+        </div>
+      </div>
+      <form class="reply">
+        <div class="reply_column">
+          <i class="far fa-plus-square"></i>
+        </div>
+        <div class="reply_column">
+          <input type="text" placeholder="쓰셈"/>
+          <i class="far fa-smile"></i>
+          <button>
+            <i class="fas fa-location-arrow"></i>
+          </button>
+        </div>
+      </form>
+    </main>
   </body>
 </html>

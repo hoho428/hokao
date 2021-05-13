@@ -4,6 +4,7 @@
 @import 'chats.css';
 @import 'find.css';
 @import 'more.css';
+@import 'chat.css';
 body{
   font-family: 'Nanum Pen Script', cursive;
 }

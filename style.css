@@ -7,3 +7,6 @@
 body{
   font-family: 'Nanum Pen Script', cursive;
 }
+.header_bottom span{
+  font-weight: bold;
+}

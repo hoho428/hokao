@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 @import 'index.css';
 @import 'navigation.css';
 @import 'chats.css';
 @import 'find.css';
 @import 'more.css';
+body{
+  font-family: 'Nanum Pen Script', cursive;
+}

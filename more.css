@@ -31,3 +31,8 @@
   border-collapse: separate;
   border-spacing: 0 50px;
 }
+#ad{
+  border-radius: 0;
+  width: 100%;
+  height: auto;
+}
